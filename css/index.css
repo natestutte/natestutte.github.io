@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+      /*mobile*/
+@media only screen and (max-width: 801px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow: hidden;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        --introtext-height: 50vh;
+
+        background-color: black;
+    }
+
+    .introduction-text {
+        position: absolute;
+        width: 100%;
+        top: var(--introtext-height, 50%);
+        transform: translate(0, -80%);
+        text-align: center;
+        font-family: 'Solway', serif;
+        font-size: 1em;
+        color: white;
+        text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+        animation: fadeInIntroText ease-in-out 1.25s;
+    }
+
+    @keyframes fadeInIntroText {
+        0% {
+            opacity: 0;
+        }
+        15% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    nav {
+        background: #202030;
+        font-family: 'Space Mono', monospace;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: block;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 1px solid #151520;
+    }
+
+    .navbar a {
+        color: #f0f0f0;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        padding: 0px 20px;
+    }
+
+    button {
+        display: block;
+        padding: 1%;
+        background-color: #202030;
+        color: #f0f0f0;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        align-self: flex-end;
+    }
+
+    #portfolio, #contact, #linkedin, #github {
+        display: none;
+    }
+
+    #canvas-bg {
+        background-color: black;
+        border: 1px solid black;
+    }
+
+}
+
+/*non-mobile*/
+@media screen and (min-width: 801px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow: hidden;
+        background-size: cover;
+
+        background-color: #0b0b0e;
+    }
+
+    .introduction-text {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translate(0, -50%);
+        text-align: center;
+        font-family: 'Solway', serif;
+        font-size: 1.5em;
+        color: white;
+        text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
+        animation: fadeInIntroText ease-in-out 1.25s;
+    }
+
+    @keyframes fadeInIntroText {
+        0% {
+            opacity: 0;
+            font-size: 1.25em;
+        }
+        15% {
+            opacity: 0;
+            font-size: 1.25em;
+        }
+        100% {
+            opacity: 1;
+            font-size: 1.5em;
+        }
+    }
+
+    nav {
+        background: #202030;
+        font-family: 'Space Mono', monospace;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        height: 60px;
+        position: relative;
+        top: -1px;
+    }
+
+    #logo a {
+        position: relative;
+        padding: 8px 15px;
+    }
+
+    .navbar a {
+        color: #f0f0f0;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        padding: 17px 20px;
+    }
+
+    .navbar a:hover {
+        background-color: #34304c;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-left {
+        display: flex;
+    }
+
+    #logo {
+        font-size: 1.75em;
+    }
+
+    #logo a:hover {
+        background: #202030;
+    }
+
+    .navbar-right {
+        display: flex;
+    }
+
+    .item_left {
+        font-size: 1.1em;
+    }
+
+    .item_right {
+        font-size: 1.1em;
+    }
+
+    #canvas-bg {
+    }
+
+    button {
+        display: none;
+    }
+}
