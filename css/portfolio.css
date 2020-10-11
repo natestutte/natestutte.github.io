@@ -1,1 +1,12 @@
 @import "index.css";
+
+#projects {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    margin-inline: auto;
+    margin-block: 40px;
+}
