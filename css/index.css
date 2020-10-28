@@ -73,12 +73,12 @@
         border: 1px solid #151520;
     }
 
-    .navbar a {
+    a {
         color: #f0f0f0;
-        text-align: center;
+        /*text-align: center;*/
         text-decoration: none;
-        display: block;
-        padding: 0px 20px;
+        /*display: block;*/
+        /*padding: 0px 20px;*/
     }
 
     button {
@@ -169,12 +169,12 @@
         padding: 8px 15px;
     }
 
-    .navbar a {
+    a {
         color: #f0f0f0;
-        text-align: center;
+        /*text-align: center;*/
         text-decoration: none;
-        display: block;
-        padding: 17px 20px;
+        /*display: block;*/
+        /*padding: 17px 20px;*/
     }
 
     .navbar a:hover {

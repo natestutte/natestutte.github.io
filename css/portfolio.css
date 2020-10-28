@@ -7,6 +7,12 @@
 }
 
 .project {
+    text-align: center;
     margin-inline: auto;
-    margin-block: 40px;
+    margin-top: 20px;
+    padding-inline: 20px;
+    padding-block: 20px;
+    width: 50%;
+
+    background: green;
 }
