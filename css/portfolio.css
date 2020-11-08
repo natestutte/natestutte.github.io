@@ -6,13 +6,27 @@
     flex-direction: column;
 }
 
+#projects a {
+    text-align: center;
+    display: block;
+    padding: 0px;
+}
+
 .project {
     text-align: center;
     margin-inline: auto;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     padding-inline: 20px;
-    padding-block: 20px;
-    width: 50%;
+    padding-block: 40px;
+    width: 95%;
 
-    background: green;
+    /*background: green;*/
+    transition: 0.25s ease;
+}
+
+.project:hover {
+    /*background: blue;*/
+    font-size: 1.5em;
+
+    transition: 0.25s ease;
 }
