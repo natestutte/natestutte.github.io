@@ -1,1 +1,17 @@
 @import "index.css";
+
+.wip-text {
+    position: absolute;
+    width: 100%;
+    top: var(--introtext-height, 50%);
+    transform: translate(0, -80%);
+    text-align: center;
+    font-family: 'Solway', serif;
+    font-size: 1em;
+    color: white;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
+}
