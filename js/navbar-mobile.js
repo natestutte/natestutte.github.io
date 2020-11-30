@@ -5,7 +5,10 @@ $(document).ready(function() {
                 }else{
                     $("#navbar-button").attr("src", "imgs/open.png");
                 }
-                $("li").toggle("slow");
+                if($("li").attr('navlink') == "true") {
+                    $(".item_left").toggle("slow");
+                    $(".item_right").toggle("slow");
+                }
             }
         )
     }
