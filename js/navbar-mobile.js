@@ -5,7 +5,7 @@ $(document).ready(function() {
                 }else{
                     $("#navbar-button").attr("src", "imgs/open.png");
                 }
-                $("li").toggle("slow");
+                $(".navbar li").toggle("slow");
             }
         )
     }
