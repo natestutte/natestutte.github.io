@@ -10,26 +10,53 @@
 
 <body>
 
-<nav>
-    <div class="navbar">
-        <ul class="navbar-left">
-            <button><img id="navbar-button" src="imgs/open.png" width="36" height="36" alt="Navbar Button"></button>
-            <li id="logo" class="item_left"><a href="/">Nate Stutte</a></li>
-            <li id="portfolio" class="item_left"><a href="portfolio.html">Portfolio</a></li>
-            <li id="contact" class="item_left"><a href="mailto: natestutte@protonmail.com">Contact Me</a></li>
-        </ul>
-        <ul class="navbar-right">
-            <li id="github" class="item_right"><a href="https://github.com/natestutte">Github</a></li>
-            <li id="linkedin" class="item_right"><a href="https://www.linkedin.com/in/nathanstutte/">LinkedIn</a></li>
-        </ul>
-    </div>
-</nav>
+    <nav>
+        <div class="navbar">
+            <ul class="navbar-left">
+                <button><img id="navbar-button" src="imgs/open.png" width="36" height="36" alt="Navbar Button"></button>
+                <li id="logo" class="item_left" navlink="true"><a href="/">Nate Stutte</a></li>
+                <li id="portfolio" class="item_left" navlink="true"><a href="portfolio.html">Portfolio</a></li>
+                <li id="contact" class="item_left" navlink="true"><a href="mailto: natestutte@protonmail.com" target="_blank">Contact Me</a></li>
+            </ul>
+            <ul class="navbar-right">
+                <li id="github" class="item_right" navlink="true"><a href="https://github.com/natestutte" target="_blank">Github</a></li>
+                <li id="linkedin" class="item_right" navlink="true"><a href="https://www.linkedin.com/in/nathanstutte/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<!--<canvas id="canvas-bg"></canvas>-->
-<!--<script src="js/three.js"></script>-->
-<!--<script src="js/background.js"></script>-->
-<!--<script src="js/jquery-3.5.1.min.js"></script>-->
-<!--<script src="js/navbar-mobile.js"></script>-->
+    <ul id="projects">
+        <a href="https://github.com/natestutte/natestutte.github.io">
+            <li id="website" class="project" navlink="false">
+                <h3>My Website</h3>
+                <p>You're here right now!</p>
+            </li>
+        </a>
+        <a href="https://github.com/natestutte/Scholarship-Picker">
+            <li id="scholarshippicker" class="project" navlink="false">
+                <h3>Scholarship Picker</h3>
+                <p>Add and randomly select scholarships!</p>
+            </li>
+        </a>
+        <a href="https://github.com/natestutte/LifeSim">
+            <li id="lifesim" class="project" navlink="false">
+                <h3>Life Sim</h3>
+                <p>Simulate creatures and watch their lives!</p>
+            </li>
+        </a>
+        <a href="https://github.com/natestutte/2B0T48">
+            <li id="2048bot" class="project" navlink="false">
+                <h3>2B0T48</h3>
+                <p>A 2048 bot that trains off of your own playing!</p>
+            </li>
+        </a>
+    </ul>
+
+    <!--<canvas id="canvas-bg"></canvas>-->
+    <!--<script src="js/three.js"></script>-->
+    <!--<script src="js/background.js"></script>-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/navbar-mobile.js"></script>
 
 <div class="wip-text">
     <h1>This section is under construction.</h1>

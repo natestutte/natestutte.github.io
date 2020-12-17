@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
       /*mobile*/
-@media only screen and (max-width: 801px) {
+@media screen and (hover: none) and (pointer: coarse) {
 
     * {
         margin: 0;
@@ -73,12 +73,18 @@
         border: 1px solid #151520;
     }
 
-    .navbar a {
+    a {
         color: #f0f0f0;
-        text-align: center;
+        /* text-align: center; */
         text-decoration: none;
+        /* display: block;
+        padding: 0px 20px; */
+    }
+
+    .navbar a {
+        text-align: center;
         display: block;
-        padding: 0px 20px;
+        padding: 17px 20px;
     }
 
     button {
@@ -97,15 +103,10 @@
         display: none;
     }
 
-    #canvas-bg {
-        background-color: black;
-        border: 1px solid black;
-    }
-
 }
 
 /*non-mobile*/
-@media screen and (min-width: 801px) {
+@media not screen and (hover: none) and (pointer: coarse) {
 
     * {
         margin: 0;
@@ -169,10 +170,16 @@
         padding: 8px 15px;
     }
 
-    .navbar a {
+    a {
         color: #f0f0f0;
-        text-align: center;
+        /* text-align: center;*/
         text-decoration: none;
+        /*display: block;*/
+        /*padding: 17px 20px; */
+    }
+
+    .navbar a {
+        text-align: center;
         display: block;
         padding: 17px 20px;
     }
@@ -212,10 +219,7 @@
     .item_right {
         font-size: 1.1em;
     }
-
-    #canvas-bg {
-    }
-
+    
     button {
         display: none;
     }
