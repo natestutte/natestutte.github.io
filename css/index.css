@@ -75,10 +75,23 @@
 
     a {
         color: #f0f0f0;
+<<<<<<< HEAD
         text-align: center;
         text-decoration: none;
         display: block;
         padding: 0px 20px;
+=======
+        /* text-align: center; */
+        text-decoration: none;
+        /* display: block;
+        padding: 0px 20px; */
+    }
+
+    .navbar a {
+        text-align: center;
+        display: block;
+        padding: 17px 20px;
+>>>>>>> 9c67a0ded6f8367a35d046f1a48556abc15e70d4
     }
 
     button {
@@ -166,8 +179,19 @@
 
     a {
         color: #f0f0f0;
+<<<<<<< HEAD
         text-align: center;
         text-decoration: none;
+=======
+        /* text-align: center;*/
+        text-decoration: none;
+        /*display: block;*/
+        /*padding: 17px 20px; */
+    }
+
+    .navbar a {
+        text-align: center;
+>>>>>>> 9c67a0ded6f8367a35d046f1a48556abc15e70d4
         display: block;
         padding: 17px 20px;
     }
@@ -207,7 +231,11 @@
     .item_right {
         font-size: 1.1em;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 9c67a0ded6f8367a35d046f1a48556abc15e70d4
     button {
         display: none;
     }
