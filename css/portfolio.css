@@ -93,7 +93,7 @@
 
     .project:hover {
         /*background: blue;*/
-        font-size: 1.5em;
+        font-size: 1.75em;
 
         transition: 0.25s ease;
     }
