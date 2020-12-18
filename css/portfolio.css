@@ -4,16 +4,16 @@
 
     @media (orientation: landscape) {
         #projects {
-            flex-direction: row;
-            top: 15vh;
-            height: 85vh;
+            flex-direction: column;
+            top: 120px;
+            height: calc(100vh - 120px)
         }
     }
     @media (orientation: portrait) {
         #projects {
             flex-direction: column;
-            top: 13.5vh;
-            height: 86.5vh;
+            top: 120px;
+            height: calc(100vh - 120px);
         }
     }
 
