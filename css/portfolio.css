@@ -12,8 +12,8 @@
     @media (orientation: portrait) {
         #projects {
             flex-direction: column;
-            top: 85px;
-            height: calc(100vh - 85px);
+            top: 105px;
+            height: calc(100vh - 105px);
         }
     }
 
@@ -47,15 +47,15 @@
         box-sizing: border-box;
 
         /*background: green;*/
-        transition: 0.25s ease;
+        /* transition: 0.25s ease; */
     }
 
-    .project:hover {
+    /* .project:hover { */
         /*background: blue;*/
-        font-size: 1.5em;
+        /* font-size: 1.5em;
 
         transition: 0.25s ease;
-    }
+    } */
 }
 
 @media not screen and (max-width: 768px) {
