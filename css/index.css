@@ -24,6 +24,7 @@
     .introduction-text {
         position: absolute;
         width: 100%;
+        height: 0px;
         top: var(--introtext-height, 50%);
         transform: translate(0, -80%);
         text-align: center;
@@ -84,7 +85,7 @@
     .navbar a {
         text-align: center;
         display: block;
-        padding: 17px 20px;
+        padding: 2px 20px;
     }
 
     button {
