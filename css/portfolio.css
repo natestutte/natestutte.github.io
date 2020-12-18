@@ -1,6 +1,6 @@
 @import "index.css";
 
-@media screen and (hover: none) and (pointer: coarse) {
+@media screen and (max-width: 768px) {
 
     @media (orientation: landscape) {
         #projects {
@@ -58,16 +58,16 @@
     }
 }
 
-@media not screen and (hover: none) and (pointer: coarse) {
+@media not screen and (max-width: 768px) {
     #projects {
         position: absolute;
         color: white;
         display: flex;
         flex-direction: column;
 
-        top: 9.5vh;
+        top: 61px;
         width: 100%;
-        height: 92.5vh;
+        height: calc(100vh - 61px);
 
         overflow: scroll;
         white-space: nowrap;   
