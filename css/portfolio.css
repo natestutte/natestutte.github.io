@@ -70,9 +70,10 @@
         height: calc(100vh - 61px);
 
         overflow: scroll;
+        overflow-x: hidden;
         white-space: nowrap;   
         -ms-overflow-style: none;
-        scrollbar-width: none;
+        /* scrollbar-width: none; */
     }
 
     #projects::-webkit-scrollbar {
