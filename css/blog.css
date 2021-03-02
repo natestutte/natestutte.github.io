@@ -43,13 +43,15 @@ a:hover {
     font-size: 1.25em;
     text-indent: 2em;
     margin-inline: 5%;
-    margin-block: 3em;
+    margin-bottom: 2em;
 }
 
 .content h2 {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+    margin: 20px;
+    margin-bottom: 35px
 }
 
 .entries {
