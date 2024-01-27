@@ -54,7 +54,7 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     display: block;
     padding: 15px 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -80,6 +80,29 @@ canvas {
     width: 100%;
     height: 100%;
     z-index: 0;
+}
+
+.aboutme-text {
+    font-size: 18px;
+    /* margin-left: 5px; */
+    grid-column-start: 2;
+    grid-column-end: span 3;
+}
+
+.aboutme {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5%;
+    /* margin: 0 auto; */
+    width: 90%;
+    /* height: 80%; */
+    z-index: 100;
+}
+
+.aboutme img {
+    max-height: 80%;
+    max-width: 80%;
 }
 
 @media screen and (max-width: 600px) {
@@ -110,5 +133,14 @@ canvas {
         padding: 15px 20px; /* Adjust padding for better mobile spacing */
         display: inline-block;
         text-align: center;
+    }
+
+    .aboutme {
+        grid-template-columns: 1fr;
+    }
+
+    .aboutme img {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
